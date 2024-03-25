@@ -1,0 +1,29 @@
+footer{
+    width: 100vw;
+    height: 10.99vw;
+    background-color: #343433;
+    .text__left{
+        width: 29.74vw;
+        height: 3.96vw;
+        margin-left: 16.15vw;
+        margin-top: 7.65vw;
+        p{
+            color: #F4F3F1;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 0.78vw;
+            line-height: 1.15vw;
+            margin-bottom: 0.5vw;
+        }
+    }
+    .text__right{
+        margin-left: 71.35vw;
+        margin-top: 0.5vw;
+        p{
+            color: #F4F3F1;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 0.78vw;
+        }
+    }
+}

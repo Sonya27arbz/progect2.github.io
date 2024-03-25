@@ -1,0 +1,136 @@
+/* font-family: "Libre Bodoni", sans-serif;
+font-family: "Montserrat", sans-serif; */
+.header__top_active {
+    background-color: #EDECE8;
+    width: 100vw;
+}
+
+.header__top {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+    .logo {
+        margin-top: 1vw;
+        margin-left: 4.69vw;
+        margin-bottom: 0.5vw;
+
+        h1 {
+            font-family: "Libre Bodoni", sans-serif;
+            font-weight: 400;
+            font-size: 1.88vw;
+            color: #343433;
+        }
+    }
+
+    .menu {
+        align-content: center;
+        align-self: center;
+        margin-left: 36.30vw;
+        text-align: center;
+        height: 100%;
+
+        .menu__list {
+            align-content: center;
+            position: relative;
+            height: auto;
+
+            .menu__list-item {
+                align-content: center;
+                position: relative;
+                width: auto;
+                vertical-align: middle;
+                text-align: center;
+                display: inline-block;
+                margin-right: 4.27vw;
+                color: #343433;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 0.78vw;
+                align-self: center;
+                position: sticky;
+
+                a {
+                    align-self: center;
+                }
+
+                a:link {
+                    color: #343433;
+                }
+
+                a:visited {
+                    color: #343433;
+                }
+
+                a:hover {
+                    color: #343433;
+                    font-weight: 600;
+                }
+            }
+
+
+        }
+    }
+
+    .menu-lines {
+        width: 1.77vw;
+        height: 1.77vw;
+        align-self: center;
+    }
+}
+
+.header__inner {
+    img {
+        width: 100vw;
+        height: 50.42vw;
+    }
+
+    .text__top {
+        margin-top: -32vw;
+        margin-left: 45.5vw;
+
+        img {
+            width: 3.39vw;
+            height: 0.05vw;
+        }
+
+        p {
+            color: #f4f3f1c1;
+            font-family: "Montserrat", sans-serif;
+            font-size: 0.94vw;
+            font-weight: 500;
+            margin-top: -0.6vw;
+            letter-spacing: 0.1vw;
+        }
+
+        .line-left {
+            margin-left: -4vw;
+            margin-top: 2.5vw;
+        }
+
+        .line-right {
+            margin-left: 7.9vw;
+            margin-top: -0.6vw;
+        }
+    }
+    .text__inner{
+        margin-left: 27.40vw;
+        margin-top: 1vw;
+        h1{
+            font-family:"Libre Bodoni", sans-serif; 
+            font-size: 3.13vw;
+            font-weight: 400;
+        }
+    }
+    .text__bottom{
+        margin-left: 46.67vw;
+        margin-top: 1vw;
+        p{
+            color: #f4f3f1c1;
+            font-family: "Montserrat", sans-serif;
+            font-size: 0.94vw;
+            font-weight: 500;
+            letter-spacing: 0.1vw;
+        }
+    }
+}

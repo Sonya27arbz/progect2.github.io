@@ -1,0 +1,145 @@
+.section-2{
+    .title{
+        margin-left: 43.02vw;
+        margin-bottom: 3.65vw;
+        h1{
+            color: #343433;
+            font-family:"Libre Bodoni", sans-serif;
+            font-weight: 400;
+            font-size: 2.40vw;
+            margin-top: 1vw;
+        }
+    }
+    .conteiner-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(7, 1fr);
+	    grid-template-columns: repeat(3, 1fr);
+	    gap: 0;
+	    width: 100vw;
+	    height: 100vw;
+        grid-column-gap: 1.04vw;
+        grid-row-gap:1.04vw ;
+        margin-bottom: 12.71vw;
+        .item-1{
+            grid-area: 1 / 1 / 3 / 2;
+            img{
+                width: 30.89vw;
+                height: 36.41vw;
+                margin-left: 1.7vw;
+            }
+        }
+        .item-2 {
+            grid-area: 1/2/2/3;
+            img{
+                width: 32.92vw;
+                height: 22.03vw;
+            }
+        }
+        .item-3 {
+            grid-area: 1 / 3 / 3 / 4;
+            img{
+                width: 31.09vw;
+                height: 31.61vw;
+            }
+        }
+        .item-4 {
+            grid-area: 2 / 2 / 4 / 3;
+            img{
+                width: 32.92vw;
+                height: 25.89vw;
+            }
+        }
+        .item-5 {
+            grid-area: 3 / 1 / 5 / 2;
+            img{
+                width: 30.89vw;
+                height: 25.99vw;
+                margin-bottom: 1.04vw;
+                margin-top: 2vw;
+                margin-left: 1.7vw;
+            }
+        }
+        .item-6 {
+            grid-area: 4 / 2 / 6 / 3;
+            img{
+                width: 32.92vw;
+                height: 22.14vw;
+                margin-top: 1.5vw;
+            }
+        }
+        .item-7 {
+            grid-area: 3 / 3 / 6 / 4;
+            img{
+                width: 31.09vw;
+                height: 42.64vw;
+                margin-top: -3vw;
+            }
+        }
+        .item-8 {
+            grid-area: 5 / 1 / 7 / 2;
+            img{
+                width: 30.89vw;
+                height: 22.03vw;
+                margin-top: 3.5vw;
+                margin-left: 1.7vw;
+            }
+        }
+        .item-9 {
+            grid-area: 6 / 2 / 8 / 3;
+            img{
+                width: 32.92vw;
+                height: 23.49vw;
+                margin-top: -1vw;
+            }
+        }
+        .item-10 {
+            grid-area: 6 / 3 / 8 / 4;
+            img{
+                width: 31.09vw;
+                height: 20.21vw;
+                margin-top: 2.3vw;
+            }
+        }
+    }
+    .conteiner-3{
+        display: grid;
+        grid-template-rows: 1.56vw;
+	    grid-template-columns: repeat(6, 1fr);
+	    gap: 0;
+        grid-column-gap: 1.04vw;
+	    width: 100vw;
+        margin-left: 13vw;
+        margin-bottom: 5.73vw;
+        .item-1{
+            img{
+                width: 7.81vw;
+                height: 1.35vw;
+            }
+        }
+        .item-2{
+            img{
+                width: 10.26vw;
+                height: 1.35vw;
+            }
+        }
+        .item-3{
+            img{
+                width: 11.98vw;
+                height: 1.35vw;
+            }
+        }
+        .item-4{
+            img{
+                width: 8.96vw;
+                height: 1.35vw;
+            }
+        }
+        .item-5{
+            img{
+                width: 6.77vw;
+                height: 1.35vw;
+            }
+        }
+    }
+}
